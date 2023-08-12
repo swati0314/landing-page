@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 67px;
+    background-color: rgb(221, 118, 66);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(23, 165, 130);
+    font-size: 1.02rem;
+}
+
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+.topright{
+    width: 50%;
+    height: 10vh;
+    margin: 180px 0;
+
+}
+.section1{
+    height: 90vh;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+body{
+    background-color: rgb(245, 196, 122)
+}
+.cream{
+    color:rgb(235, 208, 153) ;
+}
+.appupan{
+    width: 85px;
+    text-align: center;
+    padding: 50px;
+    display: center;
+    margin: 40px 0;
+}
+.dadaji{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.about-content {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.about-image img {
+    width: 346px;
+    height: auto;
+}
+
+.pricing-section {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.pricing-plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+}
+
+.price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.order-btn {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #e68a00;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px 0;
+    margin-top: 20px 0;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+    
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+.section3 h1{
+    font-size: 2.3rem;
+}
+.section3{
+    padding: 73px;
+}
+.menu-section {
+    padding: 100px;
+    text-align: center;
+}
+
+.menu-categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.menu-category {
+    text-align: center;
+    flex: 1;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.menu-item {
+    text-align: center;
+    width: 250px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.contact-section {
+    padding: 100px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #e68a00;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    background-color:#fcac36 ;
+}
